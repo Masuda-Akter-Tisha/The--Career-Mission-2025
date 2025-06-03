@@ -3,105 +3,138 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career-Mission</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Tailwind-Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./style/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div id="header-container">
-        <div id="header-section">
-            <div class="header-content">
-                <p>Career<span>.io</span></p>
-            </div>
-            <div class="header-button">
-                <button class="btn">Download Resume</button>
-            </div>
+<body class="font-[roboto]">
+    <div class="flex justify-between items-center w-[80%] mx-auto mt-8 mb-[10px]">
+    <div class="flex items-center">
+        <img src="image/penguin.png" alt="">
+        <h1 class="text-xl">Penguin <span class="text-green-600">Fashion</span></h1>
+    </div>
+    <div class="hidden sm:block">
+        <a class="mr-10">Home</a>
+        <a class="mr-10">Products</a>
+        <a class="mr-10">About Us</a>
+        <a>Success</a>
+    </div>
+    <div class=" block sm:hidden">
+    <i class="fa-solid fa-bars"></i>
+</div>
+</div>
+<div class="w-[80%] h-[500px] mx-auto flex flex-col sm:flex-row justify-between items-center">
+    <div> 
+      <h1 class="text-3xl uppercase"><span class="text-orange-400 font-[Bebas_Neue]">Be the penguins</span><br/>of winter</h1>
+        <p class="mt-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br/> Odio, nulla?</p>
+        <button class="w-[170px] h-[60px] bg-linear-to-b from-[#A4BC46] to-[#85A019] rounded-lg text-white font-semibold uppercase mt-5"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+    </div>
+    <div class="sm:mr-[100px] mt-6">
+        <img class="w-[full] h-[300px]" src="image/jacket.jpg" alt="">
+    </div>
+</div>
+    <h1 class="w-[80%] mx-auto mb-7 mt-14 text-[48px] uppercase font-[Bebas_Neue]">Women Jacket</h1>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-7 w-[80%] mx-auto">
+    <div class="p-[18px] bg-white rounded-3xl shadow-2xl">
+        <div class="bg-gray-300 rounded-3xl"><img src="image/jacket.png"  class="w-[250px] block mx-auto py-5" alt=""></div>
+        <div>
+            <h1 class="text-xl font-bold mt-5">Yellow Coat Jacket</h1>
+            <p class="mt-[13px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, amet.</p>
+        </div>
+        <div class="flex justify-between items-center">
+            <p class="text-4xl font-semibold text-orange-400">$234</p>
+            <button class="w-[170px] h-[60px] bg-linear-to-b from-[#A4BC46] to-[#85A019] rounded-lg text-white font-semibold uppercase mt-5"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
         </div>
     </div>
-    <div id="baner-container">
-        <div id="baner-section">
-            <div class="baner-image">
-                <img src="assets/hero-developer.png" alt="">
-            </div>
-            <div class="content">
-                <h2>"In 2025, I hope to become a Developer."</h2>
-                <p> I enjoy logical thinking and learning technical systems.Iam curious about how app websites, or tech products are built.<br/> I comfortable with continuous learning and problem-solving.So In 2025, I hope to become a Developer.</p>
-            </div>
-            <div class="baner-button">
-                <button class="btn1">Let's Connect</button>
-            </div>
+     <div class="p-[18px] bg-white rounded-3xl shadow-2xl">
+        <div class="bg-gray-300 rounded-3xl"><img src="image/jacket.png"  class="w-[250px] block mx-auto py-5" alt=""></div>
+        <div>
+            <h1 class="text-xl font-bold mt-5">Yellow Coat Jacket</h1>
+            <p class="mt-[13px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, amet.</p>
+        </div>
+        <div class="flex justify-between items-center">
+            <p class="text-4xl font-semibold text-orange-400">$234</p>
+            <button class="w-[170px] h-[60px] bg-linear-to-b from-[#A4BC46] to-[#85A019] rounded-lg text-white font-semibold uppercase mt-5"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
         </div>
     </div>
-    <div id="blog-container">
-        <div id="blog-section">
-            <div class="content">
-                <h2>Why Web Development??</h2>
-                <p>Firstly I love web development.Secondly I want to learn web development because it equips me with the skills to build websites and web applications,<br/> opening up career opportunities and enabling me to bring my ideas to life online.</p>
-            </div>
-            <div id="blog-content-image">
-                <div class="blog-content">
-                    <h3>I will Do Coding and Change The World</h3>
-                    <p>I want to learn web development to help people and change the world.</p>
-                    <button>Let's Discuss</button>
-                </div>
-                <div class="blog-image">
-                    <img src="assets/working-developer.png" alt="">
-                </div>
-            </div>
+     <div class="p-[18px] bg-white rounded-3xl shadow-2xl">
+        <div class="bg-gray-300 rounded-3xl"><img src="image/jacket.png"  class="w-[250px] block mx-auto py-5" alt=""></div>
+        <div>
+            <h1 class="text-xl font-bold mt-5">Yellow Coat Jacket</h1>
+            <p class="mt-[13px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, amet.</p>
+        </div>
+        <div class="flex justify-between items-center">
+            <p class="text-4xl font-semibold text-orange-400">$234</p>
+            <button class="w-[170px] h-[60px] bg-linear-to-b from-[#A4BC46] to-[#85A019] rounded-lg text-white font-semibold uppercase mt-5"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
         </div>
     </div>
-    <div id="inspiration-container">
-        <div id="inspiration-section">
-            <div class="content">
-                <h2>My Inspiration</h2>
-                <p>My inspiration is Programming Hero. It is mainly because of Programming Hero that<br/> I found the courage to build a career in web development.</p>
-            </div>
-            <div class="video-content">
-            <div class="inspiration-video">
-                <iframe  src="https://www.youtube.com/embed/DGHn2uOAVCE?si=t0wTHK_egHMenAPy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+</div>
+ <h1 class="w-[80%] mx-auto mb-7 mt-14 text-[48px] uppercase font-[Bebas_Neue]">Women Jacket</h1>
+<div class="grid grid-cols-1 sm:grid-cols-3 gap-7 w-[80%] mx-auto">
+    <div class="p-[18px] bg-white rounded-3xl shadow-2xl">
+        <div class="bg-gray-300 rounded-3xl"><img src="image/jacket.png"  class="w-[250px] block mx-auto py-5" alt=""></div>
+        <div>
+            <h1 class="text-xl font-bold mt-5">Yellow Coat Jacket</h1>
+            <p class="mt-[13px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, amet.</p>
         </div>
-        </div>
-    </div>
-    <div id="target-container">
-        <div id="target-section">
-            <div class="content">
-                <h2>My Current Target</h2>
-                <p>I will complete my targets ontime and kickstart my career</p>
-            </div>
-            <div id="target-box">
-                <div class="box1">
-                    <img src="assets/html-icon.png" alt="">
-                    <h3>HTML</h3>
-                    <a href="https://www.w3schools.com/html/">learn More</a>
-                </div>
-                <div class="box2">
-                    <img src="assets/css-icon.png" alt="">
-                    <h3>CSS</h3>
-                    <a href="https://www.w3schools.com/css/">learn More</a>
-                </div>
-                <div class="box3">
-                    <img src="assets/tailwind-icon.png" alt="">
-                    <h3>Tailwind</h3>
-                    <a href="https://www.w3schools.com/w3css/defaulT.asp">Learn More</a>
-                </div>
-            </div>
+        <div class="flex justify-between items-center">
+            <p class="text-4xl font-semibold text-orange-400">$234</p>
+            <button class="w-[170px] h-[60px] bg-linear-to-b from-[#A4BC46] to-[#85A019] rounded-lg text-white font-semibold uppercase mt-5"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
         </div>
     </div>
-    <div id="footer-container">
-        <div id="footer-section">
-            <div class="footer-content">
-                <p>An Open Commitment by M.A.Tisha</p>
-            </div>
-            <div class="footer-image">
-                <img class="img6" src="assets/facebook.png" alt="">
-                <img class="img7"src="assets/github.png" alt="">
-                <img class="img8" src="assets/linkedin.png" alt="">
-            </div>
+     <div class="p-[18px] bg-white rounded-3xl shadow-2xl">
+        <div class="bg-gray-300 rounded-3xl"><img src="image/jacket.png"  class="w-[250px] block mx-auto py-5" alt=""></div>
+        <div>
+            <h1 class="text-xl font-bold mt-5">Yellow Coat Jacket</h1>
+            <p class="mt-[13px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, amet.</p>
+        </div>
+        <div class="flex justify-between items-center">
+            <p class="text-4xl font-semibold text-orange-400">$234</p>
+            <button class="w-[170px] h-[60px] bg-linear-to-b from-[#A4BC46] to-[#85A019] rounded-lg text-white font-semibold uppercase mt-5"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
         </div>
     </div>
+     <div class="p-[18px] bg-white rounded-3xl shadow-2xl">
+        <div class="bg-gray-300 rounded-3xl"><img src="image/jacket.png"  class="w-[250px] block mx-auto py-5" alt=""></div>
+        <div>
+            <h1 class="text-xl font-bold mt-5">Yellow Coat Jacket</h1>
+            <p class="mt-[13px]">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, amet.</p>
+        </div>
+        <div class="flex justify-between items-center">
+            <p class="text-4xl font-semibold text-orange-400">$234</p>
+            <button class="w-[170px] h-[60px] bg-linear-to-b from-[#A4BC46] to-[#85A019] rounded-lg text-white font-semibold uppercase mt-5"><i class="fa-solid fa-cart-shopping"></i> Buy Now</button>
+        </div>
+    </div>
+</div>
+   <div class="w-[80%] mx-auto flex  justify-between items-center mt-10 flex-col-reverse sm:flex-row">
+   <div>
+    <div class="flex text-center sm:text-left flex-col sm:flex-row justify-between items-center p-5 bg-white rounded-3xl shadow-2xl">
+        <div><img class="h-[100px] w-[100px]" src="image/icon.jpg" alt=""></div>
+        <div>
+            <h1>Find the perfect fit</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing<br/> elit. Voluptates, perferendis.</p>
+        </div>
+     </div>
+       <div class="flex text-center sm:text-left flex-col sm:flex-row justify-between items-center p-5 bg-white rounded-3xl mt-6 shadow-2xl">
+        <div><img class="h-[100px] w-[100px]" src="image/icon.jpg" alt=""></div>
+        <div>
+            <h1>Find the perfect fit</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing<br/> elit. Voluptates, perferendis.</p>
+        </div>
+     </div>
+       <div class="flex text-center sm:text-left flex-col sm:flex-row justify-between items-center p-5 bg-white rounded-3xl mt-6 shadow-2xl">
+        <div><img class="h-[100px] w-[100px]" src="image/icon.jpg" alt=""></div>
+        <div>
+            <h1>Find the perfect fit</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing<br/> elit. Voluptates, perferendis.</p>
+        </div>
+     </div>
+   </div>
+   <div class="py-12">
+    <img class="w-[500px]" src="image/shopping.jpg" alt="">
+   </div>
+   </div>
 </body>
 </html>
