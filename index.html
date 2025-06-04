@@ -3,105 +3,243 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Career-Mission</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Natures-Platter</title>
+    <link rel="shortcut icon" href="assets/icon.png" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="./style/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
 </head>
-<body>
-    <div id="header-container">
-        <div id="header-section">
-            <div class="header-content">
-                <p>Career<span>.io</span></p>
+<body class="font-[Sora] min-h-screen">
+    <!-- main container 1  -->
+    <div class="bg-linear-to-b from-[#FFFFFF] to-[#EFEBE3] mb-[100px]">
+        <!-- nev bar section  -->
+        <div class="flex justify-around items-center sm:mt-5 mb-20 border pb-5 pt-5 border-[#179800] sm:border-none">
+            <div class="hidden sm:block">
+                <img src="assets/logo-green.png" alt="">
             </div>
-            <div class="header-button">
-                <button class="btn">Download Resume</button>
+            <div class="block sm:hidden">
+                <img src="assets/Group.png" alt="">
             </div>
+            <div class="hidden sm:block">
+                <ul class="list-none flex">
+                    <li class="ml-[40px] font-[regular] text-[20px]">Product</li>
+                    <li  class="ml-[40px] font-[regular] text-[20px]">Services</li>
+                    <li  class=" ml-[40px] font-[regular] text-[20px]">Contuct us</li>
+                </ul>
+            </div>
+            <div class="hidden sm:block">
+                <i class="fa-solid fa-magnifying-glass mr-5"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <button class="px-[30px] py-[10px] rounded-[8px] border-1 border-[#179800] ml-[20px]">Login</button>
+                <button class="bg-[#179800] px-[30px] py-[10px] rounded-[8px] text-white ml-[10px]">Register</button>
+            </div>
+            <div class="block sm:hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+        <!-- content-container  -->
+        <div class="text-center mb-7 sm:mb-0">
+            <h1 class="text-[56px] font-semibold text-[#111111] mb-[32px]">Freshness <span class="text-[#179800]">You Can<br/> Count</span> On, Prices You'll Love!</h1>
+            <p class="text-[#111111] font-[regular] text-[30px] sm:text-[20px] sm:break-before-[pantry] break-keep sm:break-normal">Shop your daily essentials at unbeatable prices. From fresh produce to pantry<br/> staples, we've got you covered every day!</p>
+        </div>
+        <div class="px-10 sm:px-0">
+            <img class="block sm:mx-auto" src="assets/hero-img.png" alt="">
         </div>
     </div>
-    <div id="baner-container">
-        <div id="baner-section">
-            <div class="baner-image">
-                <img src="assets/hero-developer.png" alt="">
-            </div>
-            <div class="content">
-                <h2>"In 2025, I hope to become a Developer."</h2>
-                <p> I enjoy logical thinking and learning technical systems.Iam curious about how app websites, or tech products are built.<br/> I comfortable with continuous learning and problem-solving.So In 2025, I hope to become a Developer.</p>
-            </div>
-            <div class="baner-button">
-                <button class="btn1">Let's Connect</button>
+    <!-- 3-box-card  -->
+     <h1 class="w-[82.5%] mx-auto text-[36px] font-semibold text-[#179800] mb-5">Services</h1>
+     <div class="w-[82.5%] mx-auto grid grid-cols-1 sm:grid-cols-3 gap-2 mb-[100px]">
+        <div class="sm:w-[424px] bg-[#EFEBE3] p-7 rounded-[16px]">
+            <div><img class="block mx-auto" src="assets/support.png" alt=""></div>
+            <div class="text-center">
+                <h1 class="text-[24px] font-semibold text-[#111111] mt-5">24/7 Services</h1>
+                <p class="text-[20px] font-light text-[#111111] mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
             </div>
         </div>
-    </div>
-    <div id="blog-container">
-        <div id="blog-section">
-            <div class="content">
-                <h2>Why Web Development??</h2>
-                <p>Firstly I love web development.Secondly I want to learn web development because it equips me with the skills to build websites and web applications,<br/> opening up career opportunities and enabling me to bring my ideas to life online.</p>
-            </div>
-            <div id="blog-content-image">
-                <div class="blog-content">
-                    <h3>I will Do Coding and Change The World</h3>
-                    <p>I want to learn web development to help people and change the world.</p>
-                    <button>Let's Discuss</button>
-                </div>
-                <div class="blog-image">
-                    <img src="assets/working-developer.png" alt="">
-                </div>
+         <div class="sm:w-[424px] bg-[#EFEBE3] p-7 rounded-[16px]">
+            <div><img class="block mx-auto" src="assets/fast-delivery.png" alt=""></div>
+            <div class="text-center">
+                <h1 class="text-[24px] font-semibold text-[#111111] mt-5">Fast Delivery</h1>
+                <p class="text-[20px] font-light text-[#111111] mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
             </div>
         </div>
-    </div>
-    <div id="inspiration-container">
-        <div id="inspiration-section">
-            <div class="content">
-                <h2>My Inspiration</h2>
-                <p>My inspiration is Programming Hero. It is mainly because of Programming Hero that<br/> I found the courage to build a career in web development.</p>
-            </div>
-            <div class="video-content">
-            <div class="inspiration-video">
-                <iframe  src="https://www.youtube.com/embed/DGHn2uOAVCE?si=t0wTHK_egHMenAPy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         <div class="sm:w-[424px] bg-[#EFEBE3] p-7 rounded-[16px]">
+            <div><img class="block mx-auto" src="assets/healthy-100.png" alt=""></div>
+            <div class="text-center">
+                <h1 class="text-[24px] font-semibold text-[#111111] mt-5">Healthy Products</h1>
+                <p class="text-[20px] font-light text-[#111111] mt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
             </div>
         </div>
-        </div>
-    </div>
-    <div id="target-container">
-        <div id="target-section">
-            <div class="content">
-                <h2>My Current Target</h2>
-                <p>I will complete my targets ontime and kickstart my career</p>
-            </div>
-            <div id="target-box">
-                <div class="box1">
-                    <img src="assets/html-icon.png" alt="">
-                    <h3>HTML</h3>
-                    <a href="https://www.w3schools.com/html/">learn More</a>
-                </div>
-                <div class="box2">
-                    <img src="assets/css-icon.png" alt="">
-                    <h3>CSS</h3>
-                    <a href="https://www.w3schools.com/css/">learn More</a>
-                </div>
-                <div class="box3">
-                    <img src="assets/tailwind-icon.png" alt="">
-                    <h3>Tailwind</h3>
-                    <a href="https://www.w3schools.com/w3css/defaulT.asp">Learn More</a>
+     </div>
+     <!-- 12-box-card  -->
+      <div class="bg-[#EFEBE3] p-20 mb-[100px]">
+        <h1 class="w-[82.5%] mx-auto text-[36px] font-semibold text-[#179800]">Popular Products</h1>
+        <div class="w-[82.5%] mx-auto mt-7 grid grid-cols-1 sm:grid-cols-4">
+            <div class="sm:w-[275px] bg-[#FFFFFF] rounded-[10px] border-1 border-[#11111110] p-3 flex gap-3 items-center mb-5">
+                <div ><img class="bg-[#EFEBE3] rounded-[10px]" src="assets/product-onion.png" alt=""></div>
+                <div>
+                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                    <span class="ml-2 text-[16px] text-[#111111]">4.5</span>
+                    <p class="text-[20px] font-medium text-[#111111]">Onion 1 KG</p>
+                    <p class="text-[16px] font-medium text-[#111111]">$39.99</p>
                 </div>
             </div>
-        </div>
-    </div>
-    <div id="footer-container">
-        <div id="footer-section">
-            <div class="footer-content">
-                <p>An Open Commitment by M.A.Tisha</p>
+             <div class="sm:w-[275px] bg-[#FFFFFF] rounded-[10px] border-1 border-[#11111110] p-3 flex gap-3 items-center mb-5">
+                <div ><img class="bg-[#EFEBE3] rounded-[10px]" src="assets/product-tomato.png" alt=""></div>
+                <div>
+                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                    <span class="ml-2 text-[16px] text-[#111111]">4.5</span>
+                    <p class="text-[20px] font-medium text-[#111111]">Tomato 1 KG</p>
+                    <p class="text-[16px] font-medium text-[#111111]">$39.99</p>
+                </div>
             </div>
-            <div class="footer-image">
-                <img class="img6" src="assets/facebook.png" alt="">
-                <img class="img7"src="assets/github.png" alt="">
-                <img class="img8" src="assets/linkedin.png" alt="">
+             <div class="sm:w-[275px] bg-[#FFFFFF] rounded-[10px] border-1 border-[#11111110] p-3 flex gap-3 items-center mb-5">
+                <div ><img class="bg-[#EFEBE3] rounded-[10px]" src="assets/product-potato.png" alt=""></div>
+                <div>
+                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                    <span class="ml-2 text-[16px] text-[#111111]">4.5</span>
+                    <p class="text-[20px] font-medium text-[#111111]">Potato 1 KG</p>
+                    <p class="text-[16px] font-medium text-[#111111]">$39.99</p>
+                </div>
+            </div>
+             <div class="sm:w-[275px] bg-[#FFFFFF] rounded-[10px] border-1 border-[#11111110] p-3 flex gap-3 items-center mb-5">
+                <div ><img class="bg-[#EFEBE3] rounded-[10px]" src="assets/product-tomato.png" alt=""></div>
+                <div>
+                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                    <span class="ml-2 text-[16px] text-[#111111]">4.5</span>
+                    <p class="text-[20px] font-medium text-[#111111]">Tomato 1 KG</p>
+                    <p class="text-[16px] font-medium text-[#111111]">$39.99</p>
+                </div>
+            </div>
+             <div class="sm:w-[275px] bg-[#FFFFFF] rounded-[10px] border-1 border-[#11111110] p-3 flex gap-3 items-center mb-5">
+                <div ><img class="bg-[#EFEBE3] rounded-[10px]" src="assets/product-onion.png" alt=""></div>
+                <div>
+                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                    <span class="ml-2 text-[16px] text-[#111111]">4.5</span>
+                    <p class="text-[20px] font-medium text-[#111111]">Onion 1 KG</p>
+                    <p class="text-[16px] font-medium text-[#111111]">$39.99</p>
+                </div>
+            </div>
+             <div class="sm:w-[275px] bg-[#FFFFFF] rounded-[10px] border-1 border-[#11111110] p-3 flex gap-3 items-center mb-5">
+                <div ><img class="bg-[#EFEBE3] rounded-[10px]" src="assets/product-tomato.png" alt=""></div>
+                <div>
+                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                    <span class="ml-2 text-[16px] text-[#111111]">4.5</span>
+                    <p class="text-[20px] font-medium text-[#111111]">Tomato 1 KG</p>
+                    <p class="text-[16px] font-medium text-[#111111]">$39.99</p>
+                </div>
+            </div>
+             <div class="sm:w-[275px] bg-[#FFFFFF] rounded-[10px] border-1 border-[#11111110] p-3 flex gap-3 items-center mb-5">
+                <div ><img class="bg-[#EFEBE3] rounded-[10px]" src="assets/product-onion.png" alt=""></div>
+                <div>
+                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                    <span class="ml-2 text-[16px] text-[#111111]">4.5</span>
+                    <p class="text-[20px] font-medium text-[#111111]">Onion 1 KG</p>
+                    <p class="text-[16px] font-medium text-[#111111]">$39.99</p>
+                </div>
+            </div>
+             <div class="sm:w-[275px] bg-[#FFFFFF] rounded-[10px] border-1 border-[#11111110] p-3 flex gap-3 items-center mb-5">
+                <div ><img class="bg-[#EFEBE3] rounded-[10px]" src="assets/product-potato.png" alt=""></div>
+                <div>
+                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                    <span class="ml-2 text-[16px] text-[#111111]">4.5</span>
+                    <p class="text-[20px] font-medium text-[#111111]">Potato 1 KG</p>
+                    <p class="text-[16px] font-medium text-[#111111]">$39.99</p>
+                </div>
+            </div>
+             <div class="sm:w-[275px] bg-[#FFFFFF] rounded-[10px] border-1 border-[#11111110] p-3 flex gap-3 items-center mb-5">
+                <div ><img class="bg-[#EFEBE3] rounded-[10px]" src="assets/product-potato.png" alt=""></div>
+                <div>
+                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                    <span class="ml-2 text-[16px] text-[#111111]">4.5</span>
+                    <p class="text-[20px] font-medium text-[#111111]">Potato 1 KG</p>
+                    <p class="text-[16px] font-medium text-[#111111]">$39.99</p>
+                </div>
+            </div>
+             <div class="sm:w-[275px] bg-[#FFFFFF] rounded-[10px] border-1 border-[#11111110] p-3 flex gap-3 items-center mb-5">
+                <div ><img class="bg-[#EFEBE3] rounded-[10px]" src="assets/product-potato.png" alt=""></div>
+                <div>
+                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                    <span class="ml-2 text-[16px] text-[#111111]">4.5</span>
+                    <p class="text-[20px] font-medium text-[#111111]">Potato 1 KG</p>
+                    <p class="text-[16px] font-medium text-[#111111]">$39.99</p>
+                </div>
+            </div>
+             <div class="sm:w-[275px] bg-[#FFFFFF] rounded-[10px] border-1 border-[#11111110] p-3 flex gap-3 items-center mb-5">
+                <div ><img class="bg-[#EFEBE3] rounded-[10px]" src="assets/product-potato.png" alt=""></div>
+                <div>
+                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                    <span class="ml-2 text-[16px] text-[#111111]">4.5</span>
+                    <p class="text-[20px] font-medium text-[#111111]">Potato 1 KG</p>
+                    <p class="text-[16px] font-medium text-[#111111]">$39.99</p>
+                </div>
+            </div>
+             <div class="sm:w-[275px] bg-[#FFFFFF] rounded-[10px] border-1 border-[#11111110] p-3 flex gap-3 items-center mb-5">
+                <div ><img class="bg-[#EFEBE3] rounded-[10px]" src="assets/product-potato.png" alt=""></div>
+                <div>
+                    <i class="fa-solid fa-star text-[#FFC107]"></i>
+                    <span class="ml-2 text-[16px] text-[#111111]">4.5</span>
+                    <p class="text-[20px] font-medium text-[#111111]">Potato 1 KG</p>
+                    <p class="text-[16px] font-medium text-[#111111]">$39.99</p>
+                </div>
             </div>
         </div>
-    </div>
+      </div>
+      <!-- 2-packet-section  -->
+       <h1 class="w-[82.5%] mx-auto font-semibold text-[36px] text-[#179800] mb-7">Arrival & Offers</h1>
+       <div class="w-[82.5%] mx-auto grid grid-cols-1 sm:grid-cols-2 gap-10 mb-[300px]">
+        <div class="sm:w-[780px] rounded-[24px] bg-[#115414] flex justify-around">
+            <div class="flex items-center">
+                <div>
+            <img src="assets/dawat-logo.png" alt="">
+           <button class="bg-[#63B76D] rounded-[16.24px] px-[20px] py-[10px] mt-[16.62px] font-[Poppins] text-[20px] text-[#FFFFFF]">Cook Exotic Dishes</button>
+           <p class="font-[Poppins] text-[#FFFFFF] text-[30px] mt-3">UP to <span class="font-bold">20% OFF</span></p>
+        </div>
+           </div>
+           <div class="mt-10px"><img src="assets/product-dawat.png" alt=""></div>
+        </div>
+         <div class="sm:w-[520px] rounded-[24px] bg-[#102861] flex justify-around">
+            <div class="flex items-center">
+                <div>
+            <img src="assets/indiagate-logo.png" alt="">
+           <button class="bg-[#2A4D97] rounded-[16.24px] px-[20px] py-[10px] mt-[16.62px] font-[Poppins] text-[20px] text-[#FFFFFF]">World's No.1 Rice</button>
+           <p class="font-[Poppins] text-[#FFFFFF] text-[30px] mt-3">UP to <span class="font-bold">40% OFF</span></p>
+        </div>
+           </div>
+           <div class="mt-10"><img src="assets/product-indiagate.png" alt=""></div>
+        </div>
+       </div>
+       <!-- last-container  -->
+        <div class="bg-[#179800] w-[100%] absolute">
+            <div class="w-[82%] relative bottom-[150px] mx-auto mb-10 bg-[#EFEBE3] rounded-[24px] flex-col sm:flex-row flex justify-around items-center py-10">
+                <div><img src="assets/fruit-basket.png" alt=""></div>
+                <div class="text-center sm:text-left">
+                    <h1 class="text-[36px] font-semibold text-[#111111]">Get Grocery News!</h1>
+                    <p class="text-[20px] mt-5 text-[#111111]">Exclusive training tips, ticks, product deals and more.</p>
+                    <input class="bg-[#FFFFFF] mt-5 rounded-[8px] text-[16px] text-[#C4C4C4] p-5" type="text" placeholder="Enter email..."><br>
+                    <button class="bg-[#179800] mt-5 rounded-[8px] px-[30px] py-[10px] text-[20px] text-[#FFFFFF]">Subscribe</button>
+                </div>
+            </div>
+             <div class="w-[82.5%] mb-[50px] mx-auto sm:flex sm:justify-between sm:items-center">
+                <div class="mb-[10px] sm:mb-0">
+                    <img src="assets/logo-white.png" alt="">
+                    <p class="text-[20px] text-[#ffffff] mt-5">Discover a world of treats, toys, and<br/> essentials handpicked for your furry friends</p>
+                </div>
+                <div class="text-[20px] text-[#EFEBE3]">
+                    <p class="mb-3">Product</p>
+                    <p class="mb-3">Survices</p>
+                    <p>Contact us</p>
+                </div>
+                <div>
+                    <p class="text-[16px] text-[#EFEBE3] font-medium mt-5">Follow Us</p>
+                    <a href="https://en.wikipedia.org/wiki/Facebook"><i class="fa-brands fa-square-facebook text-[#EFEBE3] mr-5"></i></a>
+                    <a href="https://en.wikipedia.org/wiki/Instagram"><i class="fa-brands fa-instagram text-[#EFEBE3] mr-5"></i></a>
+                   <a href="https://en.wikipedia.org/wiki/LinkedIn"> <i class="fa-brands fa-linkedin text-[#EFEBE3] mr-5"></i></a>
+                    <a href="https://en.wikipedia.org/wiki/YouTube"><i class="fa-brands fa-youtube text-[#EFEBE3] mr-5"></i></a>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
